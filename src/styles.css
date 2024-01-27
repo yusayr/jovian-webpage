@@ -1,0 +1,227 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #f0f9ff;
+    color: #6b7280
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 2.5rem;
+    color: #1e293b;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#navbar{
+    padding:8px;
+    margin:0;
+   
+}
+
+#logo {
+    width: 100px;
+    height: 30px;
+}
+
+
+
+#banner {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.location {
+    color: grey;
+    margin-top: 0;
+}
+
+#about {
+    display: flex;
+    padding-top: 0;
+    margin: 0 auto ;
+}
+
+p {
+    margin-top: 0;
+    color: #6b7280
+}
+#content {
+    width:100%;
+    padding: 0px 0px 0px 125px;
+}
+
+#team_img {
+    margin-left: 200px;
+    margin-top: 10px;
+    width:60%;
+    object-fit: contain;
+    border-radius: 6px;
+}
+
+#opportunities {
+    text-align: center;
+}
+
+#jobs{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+
+table{
+    border-collapse: collapse;
+    border-bottom: 1px solid grey;
+    width: 80%;
+    text-align: left;
+}
+
+
+
+#job_heading th {
+    padding: 12px;
+    background-color: #bae6fd;
+    border: 1px solid grey
+}
+#nested_location th {
+    padding: 12px;
+    background-color: #bae6fd;
+}
+
+#details td {
+    padding: 12px;
+    border: 1px solid grey;
+}
+
+tr:nth-child(odd){
+    background-color: #e0f2fe;
+}
+
+
+a, a:link, a:visited {
+    text-decoration: none;
+    color: #007185;
+}
+
+a:hover {
+   color: #042f2e;
+}
+
+#form{
+    padding:24px;
+    margin: 0 auto 0 auto;
+    width: 80%;
+}
+
+#form label{
+    color: #6b7280;
+}
+
+#form input{
+    width: 30%;
+}
+
+#form input[type="text"] {
+    padding: 8px;
+    font-size: 18px;
+    color: #1e293b;
+    font-weight: 600;
+    margin-bottom: 14px;
+
+}
+#form input[type="Email"] {
+    padding: 8px;
+    font-size: 18px;
+    color: #1e293b;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+#form input[type="number"] {
+    padding: 8px;
+    font-size: 18px;
+    color: #1e293b;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+#form input[type="date"] {
+    padding: 8px;
+    font-size: 18px;
+    color: #1e293b;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+#position {
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 4px;
+    margin-bottom: 14px;
+}
+
+
+#form input[type="file"] {
+    padding: 0px;
+    font-size: 18px;
+    color: #1e293b;
+    font-weight: 600;
+}
+
+#form input[type="checkbox"] {
+    padding: 16px;
+    font-size: 18px;
+    color: #1e293b;
+    font-weight: 600;
+    width: 20px;
+    height: 20px;
+    margin-top: 14px;
+}
+
+#form ::placeholder{
+    font-size: small;
+    font-style: italic;
+    color: #9ca3af;
+}
+
+#form input[type="Submit"] {
+    background-color: darkblue;
+    font-weight: 800;
+    color: whitesmoke;
+    padding: 8px;
+    width: auto;
+    margin-top: 8px;
+}
+
+
+#footer {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 0 0;
+}
+
+#footer_links {
+    display: flex;
+    list-style-type: none;  
+    margin: 10px;
+}
+
+#full_footer {
+    /* margin-top: 20px; */
+    background-color: #d1d5db;
+}
+
+#copyright{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    color: rgb(128,128,128);
+    font-size: 16px;
+    font-weight: 400;
+}
+

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Importing roboto font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="navbar">
+    <img id=logo src="https://jovian-py.readthedocs.io/en/latest/_images/jovian_horizontal_logo.svg" alt=None>
+  </div>
+  <img id="banner" src="Banner.jpg" alt="None">
+  <h1>About Jovian</h1>
+  <div id="about">
+    <div id="content">
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, incidunt enim aliquid dolore expedita quasi unde
+        ab repudiandae deserunt facere, atque quas recusandae beatae dolor rerum neque vero doloremque dolorem.
+        Rem accusamus hic vel perspiciatis reiciendis nemo tempore dolorum, recusandae necessitatibus iure a dolorem nam
+        eveniet est, impedit officiis aliquam distinctio explicabo ut beatae quo totam quia? Explicabo, eaque
+        repellendus.
+      </p>
+      <p>We also offer 2 industry focussed bootcamps
+      <ol>
+        <li>
+          <a href="https://jovian.com/learn/programming-with-javascript-and-node-js" target="_blank">
+            Full Stack Developer with NodeJS
+          </a>
+
+        </li>
+        <li>
+          <a href="https://jovian.com/learn/machine-learning-with-python-zero-to-gbms" target="_blank">
+            Machine Learning using Python
+          </a>
+        </li>
+      </ol>
+      </p>
+    </div>
+    <div>
+      <img id="team_img" src="team.jpg">
+    </div>
+  </div>
+
+
+  <h2 id="opportunities">Job Opportunities</h2>
+
+
+  <div>
+    <table id="jobs">
+
+    <div id ="table_content"> 
+      <tr id="job_heading">
+        <th rowspan="2">Job Title
+        </th>
+        <th colspan="2">Location
+        </th>
+
+        <th rowspan="2">Salary (Per Annum)
+        </th>
+        <th rowspan="2">Posted On
+        </th>
+      </tr>
+
+
+
+      <!-- <th>Salary (Per Annum)
+        </th>
+        <th>Posted On
+        </th>
+      </tr> -->
+
+      <tr id = "nested_location">
+      <th>City
+      </th>
+      <th>Country
+      </th>
+      </tr>
+
+      <tr id="details">
+        <td>Frontend Developer
+        </td>
+        <td>Bengaluru</td>
+        <td>Karnataka
+        </td>
+        <td>Rs 7.5 Lakhs
+        </td>
+        <td>12-07-2023
+        </td>
+      </tr>
+
+      <tr id="details">
+        <td>Backend Developer</td>
+        <td>Bengaluru </td>
+        <td>Karnataka</td>
+        <td>Rs 8 Lakhs</td>
+        <td>15-07-2023</td>
+      </tr>
+
+
+      <tr id="details">
+        <td>Data Scientist
+        </td>
+        <td colspan="2">Remote
+        </td>
+        <td>Rs 8 Lakhs
+        </td>
+        <td>14-09-2023
+        </td>
+      </tr>
+
+      <tr id="details">
+        <td>Frontend Developer
+        </td>
+        <td>Seattle</td>
+        <td>USA</td>
+        <td>USD 80000</td>
+        <td>15-11-2023</td>
+      </tr>
+
+      <tr id="details">
+        <td>Data Scientist
+        </td>
+        <td colspan="2">Remote</td>
+        <td>Rs 8 Lakhs</td>
+        <td>14-09-2023</td>
+      </tr>
+
+      <tr id="details">
+        <td>Frontend Developer
+        </td>
+        <td>Seattle</td>
+        <td>USA</td>
+        <td>USD 90000</td>
+        <td>15-11-2023</td>
+      </tr>
+    </div>
+    </table>
+  </div>
+
+  <!-- Submitting an application form, Take name, email, phone, DOB, position(dropdown) Resume upload, CV upload, text_area, checkbox!-->
+  <div >
+  <form id ="application" action="https://formbold.com/s/91EB2" method="POST">
+    <h2>Application Form</h2>
+    <div id ="form">
+    
+      <label for="name">Full name</label><br>
+      <input type=text id="name"  name='Fullname' required placeholder="Enter Name"><br> 
+
+
+      <label for="email">Email ID</label><br>
+      <input type="Email" id="email" name="Email Address" required placeholder="Enter Email Address"><br>
+    
+      <label for="phone">Phone</label><br>
+      <input type="number" id="phone" name="Phone number" required placeholder="Enter Phone"><br>
+
+      <label for="dob">Date Of Birth</label><br>
+      <input type="date" id="dob" name="Date Of Birth" required><br>
+
+      <label for="position">Applying for</label><br>
+      <select name="Position Applied" id="position" required>
+        <option style="color:#9ca3af" value="placeholder" id="job_role">Select Job Role</option>
+        <option value="frontend">Frontend Engineer</option>
+        <option value="backend">Backend Engineer</option>
+        <option value="full stack">Full Stack Engineer</option>
+        <option value="data scientist">Data Scientist</option>
+      </select>
+      <br>
+
+      <label for="resume">Resume upload</label><br>
+      <input type="file" 
+      id="resume" name="myfile" 
+      accept=".doc,.docx,.xml,.pdf" /><br>
+
+
+      <input type="checkbox" id="checkbox_consent" name="Consent" required>
+      <label for="checkbox_consent">I agree to the terms and conditions before submitting this application</label><br>
+      
+
+      <input type="submit" value="Submit" name="Submit Button">
+      
+    </div>
+
+    </div>
+
+
+  <div id="full_footer">
+    <div id=footer>
+      <ul id=footer_links>
+        <li><a style="margin: 10px;" href="https:/jovian.com/learn" target="_blank">Courses</a></a></li>
+        <li><a style="margin: 10px;" href="https:/youtube.com/@jovianhq" target="_blank">Youtube</a></li>
+        <li><a style="margin: 10px;" href="https:/Jovian.com" target="_blank">Programs</a></li>
+      </ul>
+    </div>
+
+    <div id="copyright">© 2023, Jovian</div>
+  </div>
+
+</body>
+
+</html>
